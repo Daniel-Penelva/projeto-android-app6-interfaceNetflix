@@ -85,7 +85,11 @@ public class MainActivity extends AppCompatActivity {
      *  (por exemplo, menu_volume) e um resource value (por exemplo, volume).
      *
      *
+     *  Componentes:
+     *   SeekBar - Tem a função de marcar o tempo do filme. Seria um play de vídeo.
      *
+     *  Dica: Formatar o código
+     *   ctrl + alt + L
      *
      * */
 }
