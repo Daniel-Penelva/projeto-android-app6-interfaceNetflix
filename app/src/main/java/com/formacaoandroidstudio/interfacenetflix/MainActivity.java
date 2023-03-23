@@ -55,5 +55,37 @@ public class MainActivity extends AppCompatActivity {
      *  estar o icone criado, basta escolhe-lo e clicar nele, logo o icone ficará
      *  abaixo do textView.
      *
+     *  Outra forma de inserir o icone é através do elemento 'imageView', ou seja,
+     *  você vai arrastar o imageView no design e buscar pelo drawable o icone que você quer
+     *  adicionar.
+     *
+     *
+     *  Linha Guias (menus) - Guidelines - representa o símbolo (I) no activity_main.xml:
+     *  Ou pode acessar clicando com o botão direito do mouse em cima do design:
+     *  Helpers > vai aparecer as opções de guideline
+     *
+     *  Guideline são pontos de referências que podem ser configurados dentro do seu app, para
+     *  te ajudar a construir um menu, por exemplo.
+     *
+     *  É possível manipular os valores do guideline pela propriedades da aba 'attributes', por exemplo,
+     *  se aplicarmos uma guideline em porcentagem, basta ir na aba, 'attributes' e pesquisar por 'percent'
+     *  que vai ser mostrado as propriedades 'layout_constraintGuide_percent' e entre outras propriedades.
+     *
+     *  Aplicando os icones na guideline:
+     *  Basta arrastar as constraints na guideline.
+     *
+     *
+     *  Sobre os icones:
+     *  -> É importante criar um 'ContentDescription' (na aba attributes) que define uma função para que pessoas
+     *  com problema visual possam entender ao usar o app. Ou seja, vai ser descrito cada componente do app que
+     *  o usuário cego habilitar.
+     *
+     *  -> Uma outra funcionalidade que é bom aplicar nos icones é o recurso de Strings, ou seja, lá mesmo no
+     *  'ContentDescription' no 'Pick resources' vamos criar uma 'New String Value', depois criar um resource name
+     *  (por exemplo, menu_volume) e um resource value (por exemplo, volume).
+     *
+     *
+     *
+     *
      * */
 }
